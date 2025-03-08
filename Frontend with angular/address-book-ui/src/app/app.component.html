@@ -1,0 +1,15 @@
+
+<app-header></app-header>
+<app-add-contact *ngIf="showAddContact"></app-add-contact>
+<app-show-contact *ngIf="!showAddContact"></app-show-contact>
+<router-outlet></router-outlet>
+
+
+
+
+<!-- Include Header and Listen to Toggle Event -->
+<!-- <app-header (toggleEvent)="toggleComponent()"></app-header> -->
+
+<!-- Conditionally show components based on toggle state -->
+<!-- <app-add-contact *ngIf="showAddContact"></app-add-contact> -->
+<!-- <app-show-contact *ngIf="!showAddContact"></app-show-contact> -->

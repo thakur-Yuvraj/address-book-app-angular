@@ -1,0 +1,26 @@
+<div class="contact-container">
+    <h2>Address Book Contacts</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Address</th>
+          <th>City</th>
+          <th>State</th>
+          <th>Pin Code</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let contact of contacts">
+          <td>{{ contact.name }}</td>
+          <td>{{ contact.email }}</td>
+          <td>{{ contact.address }}</td>
+          <td>{{ contact.city }}</td>
+          <td>{{ contact.state }}</td>
+          <td>{{ contact.pincode }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  

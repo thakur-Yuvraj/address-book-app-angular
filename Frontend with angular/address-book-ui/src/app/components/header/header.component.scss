@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background: #007bff;
+    padding: 10px;
+    color: white;
+  
+    .logo {
+      display: flex;
+      align-items: center;
+  
+      img {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+      }
+    }
+  
+    ul {
+      list-style: none;
+      display: flex;
+      gap: 15px;
+  
+      li {
+        a {
+          color: white;
+          text-decoration: none;
+          cursor: pointer;
+        }
+      }
+      li {
+        a:active {
+          color: black;
+        }
+      }
+    }
+  }
+  
